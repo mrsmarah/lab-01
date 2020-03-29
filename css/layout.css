@@ -1,0 +1,90 @@
+.container{
+    width: 480px;
+    height: 767px;
+    margin: auto; 
+    box-sizing: border-box;
+}
+.one{
+    width: 478px;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.a{
+    background-color: rgba(223, 211, 217, 0.781);  
+}
+.two{
+    width:  478px;
+    text-align: center;
+    height: 150ox;
+    line-height: 150px;   
+    border-left: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.b{
+    background-color: rgba(221, 229, 250, 0.781);  
+}
+
+.five{
+    width: 478px;
+    text-align: center;
+    line-height: 80px;
+    clear: both; 
+    border-left: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.i{
+    background-color: rgba(100, 97, 99, 0.74);  
+}
+
+@media all and (min-width: 960px) {
+    .container{
+        width: 960px;
+        height: 768px;
+        margin: auto; 
+        box-sizing: border-box;
+    }
+    .one{
+        width:958px;
+        text-align: center;
+        height: 100px;
+        line-height: 75px;
+        border: 1px solid rgb(0, 0, 0);
+        clear: both;
+    }
+    .a{
+        background-color: rgba(119, 184, 148, 0.281);  
+    }
+    .two{
+        width:  198px;
+        text-align: center;
+        height: 600px;
+        line-height: 600px; 
+        float: left;
+        clear: left;  
+        border-left: 1px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-right: 1px solid rgb(0, 0, 0);
+    }
+    .b{
+        background-color: rgba(88, 54, 143, 0.384);  
+    }
+    
+    .five{
+        width: 759px;
+        text-align: center;
+        line-height: 150px;
+        border-left: 0px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-right: 1px solid rgb(0, 0, 0);
+        float: right;
+        clear: right;
+    }
+    .i{
+        background-color: rgba(243, 200, 151, 0.329);  
+    }
+}

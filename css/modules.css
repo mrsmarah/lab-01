@@ -1,0 +1,103 @@
+.three{
+    width:  478px;
+    text-align: center;
+    height: 125ox;
+    line-height: 125px;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0); 
+      
+}
+.c{
+    background-color: rgba(221, 250, 247, 0.781);  
+}
+.d{
+    background-color: rgba(195, 236, 191, 0.781);  
+}
+
+.four-left{
+    width: 238.5px;
+    text-align: center;
+    line-height: 250px;
+    float: left; 
+   clear: left;
+   border-left: 1px solid rgb(0, 0, 0);
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+.e{
+    background-color: rgba(236, 240, 185, 0.781);  
+}
+.g{
+    background-color: rgba(253, 217, 175, 0.781);  
+}
+.four-right{
+    width: 238.5px;
+    text-align: center;
+    line-height: 250px;
+    float: left; 
+    clear: right; 
+    border-left: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.f{
+    background-color: rgba(238, 194, 194, 0.781);  
+}
+.h{
+    background-color: rgba(151, 100, 126, 0.5);  
+}
+
+@media all and (min-width: 960px) {
+    .three{
+        width:  379px;
+        text-align: center;
+        height: 200px;
+        line-height: 200px;
+        /* float: left; */
+        display: table-cell;
+        border-left: 0px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-right: 1px solid rgb(0, 0, 0); 
+          
+    }
+    .c{
+        background-color: rgba(94, 77, 85, 0.363);  
+    }
+    .d{
+        background-color: rgba(188, 223, 94, 0.534);  
+    }
+    .four-left {
+        width:189px;
+        text-align: center;
+        line-height: 250px;
+        float: right;
+        clear: none;
+       border-left: 0px solid rgb(0, 0, 0);
+       border-bottom: 1px solid rgb(0, 0, 0);
+       border-right: 1px solid rgb(0, 0, 0); 
+    }
+    .e{
+        background-color: rgba(41, 43, 150, 0.521);  
+    }
+    .g{
+        background-color: rgba(148, 73, 73, 0.425);  
+    }
+    .four-right{
+        width: 189px;
+        text-align: center;
+        line-height: 250px;
+        float: right; 
+        clear: none; 
+        border-left: 0px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        border-right: 1px solid rgb(0, 0, 0);
+        
+    }
+    .f{
+        background-color: rgba(25, 118, 161, 0.541);  
+    }
+    .h{
+        background-color: rgba(250, 221, 236, 0.781);  
+    }
+    
+}
