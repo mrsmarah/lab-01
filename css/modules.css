@@ -1,26 +1,24 @@
 .three{
-    width:  478px;
-    text-align: center;
-    height: 125ox;
-    line-height: 125px;
     border-left: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0); 
       
 }
 .c{
-    background-color: rgba(221, 250, 247, 0.781);  
+    background-color: rgba(221, 250, 247, 0.781);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;  
 }
 .d{
-    background-color: rgba(195, 236, 191, 0.781);  
+    background-color: rgba(195, 236, 191, 0.781); 
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;   
 }
 
 .four-left{
     width: 238.5px;
-    text-align: center;
     line-height: 250px;
-    float: left; 
-   clear: left;
+   
    border-left: 1px solid rgb(0, 0, 0);
    border-bottom: 1px solid rgb(0, 0, 0);
 }
@@ -30,12 +28,11 @@
 .g{
     background-color: rgba(253, 217, 175, 0.781);  
 }
-.four-right{
+.four-right {
     width: 238.5px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     line-height: 250px;
-    float: left; 
-    clear: right; 
     border-left: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);

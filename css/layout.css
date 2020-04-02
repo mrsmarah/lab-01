@@ -1,31 +1,40 @@
-.container{
-    width: 480px;
-    height: 767px;
-    margin: auto; 
-    box-sizing: border-box;
+.container1{
+    display: grid;
+    grid-template-columns: 480px ;
+    grid-template-rows: 75px 150px 125px 125px;
 }
-.one{
-    width: 478px;
-    text-align: center;
-    height: 75px;
-    line-height: 75px;
-    border: 1px solid rgb(0, 0, 0);
+.container2{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 240px 240px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 480px ;
+    grid-template-rows: 80px;
+}
 
+.one{
+    /* text-align: center; */
+    /* line-height: 75px; */
+    border: 1px solid rgb(0, 0, 0);
+    
 }
 .a{
-    background-color: rgba(223, 211, 217, 0.781);  
+    background-color: rgba(223, 211, 217, 0.781);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;  
 }
 .two{
-    width:  478px;
-    text-align: center;
-    height: 150ox;
-    line-height: 150px;   
+    
     border-left: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
 }
 .b{
-    background-color: rgba(221, 229, 250, 0.781);  
+    background-color: rgba(221, 229, 250, 0.781); 
+    grid-column: 1 / 2;
+    grid-row: 2 / 3; 
 }
 
 .five{
@@ -87,4 +96,7 @@
     .i{
         background-color: rgba(243, 200, 151, 0.329);  
     }
+}
+@media all and (min-width: 960px) {
+    
 }
